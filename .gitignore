@@ -1,3 +1,10 @@
+# production
+/build
+
+# misc
+.DS_Store
+.idea
+
 # Logs
 logs
 *.log
@@ -56,4 +63,7 @@ typings/
 
 # dotenv environment variables file
 .env
-
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
